@@ -1,0 +1,923 @@
+#big-screen .head-all {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 45px 14px 55px;
+  border-bottom: 1px solid #785858;
+}
+#big-screen .head-all .head-logo {
+  cursor: pointer;
+}
+#big-screen .head-all nav {
+  align-items: center;
+  cursor: pointer;
+}
+#big-screen .head-all nav a {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  padding: 17px 0px;
+  font-weight: normal;
+  padding: 0px 10px;
+}
+#big-screen .head-all nav i {
+  color: #fff;
+  font-size: 13px;
+}
+#big-screen .head-all .head-icon {
+  position: relative;
+  cursor: pointer;
+}
+#big-screen .head-all .head-icon i {
+  padding: 0 10px;
+  font-size: 25px;
+  color: #fff;
+}
+#big-screen .head-all .head-icon .number-one {
+  position: absolute;
+  top: -8px;
+  right: 44px;
+  font-size: 12px;
+  padding: 3px 9px;
+  border-radius: 100px;
+  color: #000;
+  background-color: #fff;
+}
+#big-screen .head-all .head-icon .number-second {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  font-size: 10px;
+  padding: 5px 8px;
+  border-radius: 100px;
+  color: #000;
+  background-color: #fff;
+}
+
+#small-screen {
+  display: none;
+}
+
+#head-page {
+  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#head-page .backcolor {
+  background-image: radial-gradient(101.74% 101.74% at 68.02% 59.68%, rgba(15, 1, 5, 0) 27.48%, rgba(15, 1, 5, 0.5) 86.14%);
+  padding: 14rem 0rem 18rem 19rem;
+}
+#head-page .backcolor .cosmetic-aaa a {
+  color: #f8f6f4;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  padding: 8px 25px;
+  border: 1px solid #b29689;
+  transition: 0.5s;
+}
+#head-page .backcolor .cosmetic-aaa:hover a {
+  border: 1px solid #000;
+  background-color: #000;
+}
+#head-page .backcolor .cosmetic-write span {
+  font-family: "Charm", cursive;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+#head-page .backcolor .cosmetic-write h3 {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 1.06;
+  margin-bottom: 22px;
+  width: 35%;
+}
+#head-page .backcolor .cosmetic-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 28%;
+  margin-bottom: 40px;
+}
+#head-page .backcolor .cosmetic-icon .cosmetic-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head-page .backcolor .cosmetic-icon .cosmetic-box span {
+  color: #fff;
+  margin-right: 10px;
+}
+#head-page .backcolor .cosmetic-icon .cosmetic-box h3 {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 1.25rem;
+  margin-right: 35px;
+  padding-top: 8px;
+}
+#head-page .backcolor .cosmetic-icon .cosmetic-box hr {
+  width: 1%;
+  height: 5vh;
+  border: 1px solid #e0e2e3;
+}
+
+#head-page-small {
+  display: none;
+}
+
+#Products {
+  margin-bottom: 100px;
+}
+#Products .product-write {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+#Products .product-write .left {
+  width: 60%;
+}
+#Products .product-write .left span {
+  font-family: "Jost", sans-serif;
+  color: #bd844c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 14px;
+}
+#Products .product-write .left h3 {
+  font-family: "Jost", sans-serif;
+  color: #010f0c;
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+#Products .product-write .right a {
+  font-family: "Jost", sans-serif;
+  color: #010f0c;
+  font-size: 14px;
+  padding: 9px 26px;
+  border: 1px solid #e0e2e3;
+  transition: 0.5s;
+}
+#Products .product-write .right:hover a {
+  background-color: #bd844c;
+  color: #fff;
+}
+#Products .product-box {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#Products .product-box:hover .product-box-img-one {
+  transform: scale(1.1);
+}
+#Products .product-box:hover .product-box-img-one .bg-linear {
+  background-image: linear-gradient(180deg, rgba(1, 15, 28, 0.5) 100%, rgba(1, 15, 28, 0) 0%);
+}
+#Products .product-box:hover .product-box-img-second {
+  transform: scale(1.1);
+}
+#Products .product-box:hover .product-box-img-second .bg-linear {
+  background-image: linear-gradient(180deg, rgba(1, 15, 28, 0.5) 100%, rgba(1, 15, 28, 0) 0%);
+}
+#Products .product-box:hover .product-box-img-three {
+  transform: scale(1.1);
+}
+#Products .product-box:hover .product-box-img-three .bg-linear {
+  background-image: linear-gradient(180deg, rgba(1, 15, 28, 0.5) 100%, rgba(1, 15, 28, 0) 0%);
+}
+#Products .product-box:hover .product-box-img-four {
+  transform: scale(1.1);
+}
+#Products .product-box:hover .product-box-img-four .bg-linear {
+  background-image: linear-gradient(180deg, rgba(1, 15, 28, 0.5) 100%, rgba(1, 15, 28, 0) 0%);
+}
+#Products .product-box .product-box-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 56vh;
+  transition: 0.5s;
+}
+#Products .product-box .product-box-img-one {
+  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/category/3/category-1.jpg);
+}
+#Products .product-box .product-box-img-one .bg-linear {
+  background-image: linear-gradient(180deg, rgba(1, 15, 28, 0) 0%, rgba(1, 15, 28, 0.5) 100%);
+  height: 56vh;
+}
+#Products .product-box .product-box-img-second {
+  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/category/3/category-2.jpg);
+}
+#Products .product-box .product-box-img-second .bg-linear {
+  height: 56vh;
+  background-image: linear-gradient(180deg, rgba(1, 15, 28, 0) 0%, rgba(1, 15, 28, 0.5) 100%);
+}
+#Products .product-box .product-box-img-three {
+  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/category/3/category-3.jpg);
+}
+#Products .product-box .product-box-img-three .bg-linear {
+  height: 56vh;
+  background-image: linear-gradient(180deg, rgba(1, 15, 28, 0) 0%, rgba(1, 15, 28, 0.5) 100%);
+}
+#Products .product-box .product-box-img-four {
+  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/category/3/category-4.jpg);
+}
+#Products .product-box .product-box-img-four .bg-linear {
+  height: 56vh;
+  background-image: linear-gradient(180deg, rgba(1, 15, 28, 0) 0%, rgba(1, 15, 28, 0.5) 100%);
+}
+#Products .product-box .product-box-write {
+  bottom: -20px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  transition: 0.6s;
+  position: absolute;
+}
+#Products .product-box .product-box-write h3 a {
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+#Products .product-box .product-box-write span {
+  display: block;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 14px;
+}
+#Products .product-box .product-box-write .fox-a {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  opacity: 0;
+  transition: 0.6s;
+}
+#Products .product-box .product-box-write .fox-a::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  bottom: -5px;
+  left: 0px;
+}
+#Products .product-box:hover .product-box-write {
+  bottom: 30px;
+}
+#Products .product-box:hover .product-box-write .fox-a {
+  opacity: 1;
+}
+#Products .rowup {
+  margin-top: 100px;
+  padding: 0 10px;
+}
+#Products .product-foot {
+  border: 1px solid #e0e2e3;
+  text-align: center;
+  width: 100%;
+}
+#Products .product-foot .product-foot-one-image {
+  margin-top: 81px;
+}
+#Products .product-foot .product-foot-second-image {
+  margin-top: 44.5px;
+}
+#Products .product-foot .product-foot-three-image {
+  margin-top: 16.5px;
+}
+#Products .product-foot .product-foot-write h3 a {
+  color: #010f0c;
+  font-size: 26px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 14px;
+  transition: 0.3s;
+}
+#Products .product-foot .product-foot-write a:hover {
+  color: #bd844c;
+}
+#Products .product-foot .product-foot-write p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #55585b;
+  font-size: 16px;
+  margin-bottom: 19px;
+}
+#Products .product-foot .product-foot-write span {
+  display: inline-block;
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  color: #bd844c;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.icons, #Category .category-box .category-image .category-box-icon .fa-eye, #Category .category-box .category-image .category-box-icon .fa-cart-shopping {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #eae4de;
+  padding: 11px 12px;
+  margin: 3px 0;
+  font-size: 15px;
+}
+
+#Category {
+  margin-bottom: 100px;
+  background-color: #eae4de;
+}
+#Category .category-write {
+  padding: 5rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+#Category .category-write .left {
+  width: 60%;
+}
+#Category .category-write .left span {
+  font-family: "Jost", sans-serif;
+  color: #bd844c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 14px;
+}
+#Category .category-write .left h3 {
+  font-family: "Jost", sans-serif;
+  color: #010f0c;
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+#Category .category-write .right a {
+  font-family: "Jost", sans-serif;
+  color: #010f0c;
+  font-size: 14px;
+  padding: 9px 26px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+#Category .category-write .right:hover a {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+#Category .category-box .category-image {
+  overflow: hidden;
+  position: relative;
+}
+#Category .category-box .category-image img {
+  width: 100%;
+  transition: 0.5s;
+}
+#Category .category-box .category-image .category-box-percentage span {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02rem;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  background-color: #010f0c;
+  padding: 10px 8px;
+  border-radius: 100px;
+}
+#Category .category-box .category-image:hover img {
+  transform: scale(1.1);
+}
+#Category .category-box .category-image:hover .category-box-cart a {
+  opacity: 1;
+  bottom: 0.2%;
+}
+#Category .category-box .category-image .category-box-cart a {
+  padding: 5px 0px;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  position: absolute;
+  font-weight: 400;
+  background-color: #000;
+  width: 100%;
+  bottom: -20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #fff;
+  opacity: 1;
+  transition: 0.5s;
+}
+#Category .category-box .category-image .category-box-cart:hover a {
+  background-color: #bd844c;
+}
+#Category .category-box .category-image:hover .category-box-icon {
+  right: 20px;
+  opacity: 1;
+}
+#Category .category-box .category-image .category-box-icon {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#Category .category-box .category-image .category-box-icon .fa-cart-shopping:hover {
+  background-color: #010f0c;
+  color: #fff;
+  border: 1px solid #010f0c;
+}
+#Category .category-box .category-image .category-box-icon .fa-eye:hover {
+  background-color: #010f0c;
+  color: #fff;
+  border: 1px solid #010f0c;
+}
+#Category .category-box .category-image .category-box-icon .fa-heart:hover {
+  background-color: #010f0c;
+  color: #fff;
+  border: 1px solid #010f0c;
+}
+#Category .category-box .category-image .category-box-icon .fa-heart {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #eae4de;
+  padding: 11px 13px;
+  margin: 3px 0;
+  font-size: 15px;
+}
+#Category .category-box .category-box-write {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+#Category .category-box .category-box-write p {
+  font-family: "Jost", sans-serif;
+  color: #55585b;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  transition: 0.3s;
+}
+#Category .category-box .category-box-write p:hover {
+  color: #bd844c;
+  transition: 0.3s;
+}
+#Category .category-box .category-box-write h3 {
+  margin-top: -8px;
+}
+#Category .category-box .category-box-write h3 a {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: #010f0c;
+  font-size: 20px;
+  transition: 0.5s;
+}
+#Category .category-box .category-box-write a:hover {
+  color: #bd844c;
+  transition: 0.3s;
+}
+#Category .category-box .category-box-write span {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #010f0c;
+}
+#Category .category-box .category-box-write .discount-price {
+  margin-left: 3px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: #767a7d;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 576px) {
+  #big-screen {
+    display: none;
+  }
+  #small-screen {
+    display: block;
+  }
+  #small-screen .head-all {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    padding: 10px 10px 12px;
+    border-bottom: 1px solid #785858;
+    width: 100%;
+  }
+  #small-screen .head-icon {
+    color: #fff;
+    font-size: 25px;
+  }
+  #head-page {
+    display: none;
+  }
+  #head-page-small {
+    display: block;
+    background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #head-page-small .backcolor {
+    background-image: radial-gradient(101.74% 101.74% at 68.02% 59.68%, rgba(15, 1, 5, 0) 27.48%, rgba(15, 1, 5, 0.5) 86.14%);
+    padding: 8rem 0rem 10rem 1rem;
+  }
+  #head-page-small .backcolor .cosmetic-aaa a {
+    color: #f8f6f4;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    padding: 8px 25px;
+    border: 1px solid #b29689;
+    transition: 0.5s;
+  }
+  #head-page-small .backcolor .cosmetic-aaa:hover a {
+    border: 1px solid #000;
+    background-color: #000;
+  }
+  #head-page-small .backcolor .cosmetic-write span {
+    font-family: "Charm", cursive;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  #head-page-small .backcolor .cosmetic-write h3 {
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.06;
+    margin-bottom: 22px;
+  }
+  #head-page-small .backcolor .cosmetic-icon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box {
+    display: flex;
+    width: 50%;
+    align-items: center;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box span {
+    color: #fff;
+    margin-right: 10px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box h3 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding-top: 8px;
+  }
+  #Products .product-write {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  #Products .product-write .left {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #Products .product-write .left h3 {
+    font-size: 30px;
+  }
+  #Products .product-write .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #Category .category-write {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  #Category .category-write .left {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #Category .category-write .left h3 {
+    font-size: 30px;
+  }
+  #Category .category-write .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  #big-screen {
+    display: none;
+  }
+  #small-screen {
+    display: block;
+  }
+  #small-screen .head-all {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    padding: 10px 10px 12px;
+    border-bottom: 1px solid #785858;
+    width: 100%;
+  }
+  #small-screen .head-icon {
+    color: #fff;
+    font-size: 25px;
+  }
+  #Products .product-write {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  #Products .product-write .left {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #Products .product-write .left h3 {
+    font-size: 30px;
+  }
+  #Products .product-write .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #Category .category-write {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  #Category .category-write .left {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #Category .category-write .left h3 {
+    font-size: 30px;
+  }
+  #Category .category-write .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #head-page {
+    display: none;
+  }
+  #head-page-small {
+    display: block;
+    background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #head-page-small .backcolor {
+    background-image: radial-gradient(101.74% 101.74% at 68.02% 59.68%, rgba(15, 1, 5, 0) 27.48%, rgba(15, 1, 5, 0.5) 86.14%);
+    padding: 6rem 0rem 5rem 4rem;
+  }
+  #head-page-small .backcolor .cosmetic-aaa a {
+    color: #f8f6f4;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    padding: 8px 25px;
+    border: 1px solid #b29689;
+    transition: 0.5s;
+  }
+  #head-page-small .backcolor .cosmetic-aaa:hover a {
+    border: 1px solid #000;
+    background-color: #000;
+  }
+  #head-page-small .backcolor .cosmetic-write span {
+    font-family: "Charm", cursive;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    padding-top: 10px;
+  }
+  #head-page-small .backcolor .cosmetic-write h3 {
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.06;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  #head-page-small .backcolor .cosmetic-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: start;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box span {
+    color: #fff;
+    margin-right: 10px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box h3 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding-top: 8px;
+    margin-right: 30px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box hr {
+    width: 1%;
+    height: 7vh;
+    border: 1px solid #e0e2e3;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #big-screen {
+    display: none;
+  }
+  #small-screen {
+    display: block;
+  }
+  #small-screen .head-all {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    padding: 10px 10px 12px;
+    border-bottom: 1px solid #785858;
+    width: 100%;
+  }
+  #small-screen .head-icon {
+    color: #fff;
+    font-size: 25px;
+  }
+  #head-page {
+    display: none;
+  }
+  #head-page-small {
+    display: block;
+    background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #head-page-small .backcolor {
+    background-image: radial-gradient(101.74% 101.74% at 68.02% 59.68%, rgba(15, 1, 5, 0) 27.48%, rgba(15, 1, 5, 0.5) 86.14%);
+    padding: 15rem 0rem 3rem 4rem;
+  }
+  #head-page-small .backcolor .cosmetic-aaa a {
+    color: #f8f6f4;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    padding: 8px 25px;
+    border: 1px solid #b29689;
+    transition: 0.5s;
+  }
+  #head-page-small .backcolor .cosmetic-aaa:hover a {
+    border: 1px solid #000;
+    background-color: #000;
+  }
+  #head-page-small .backcolor .cosmetic-write span {
+    font-family: "Charm", cursive;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    padding-top: 10px;
+  }
+  #head-page-small .backcolor .cosmetic-write h3 {
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.06;
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  #head-page-small .backcolor .cosmetic-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: start;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box span {
+    color: #fff;
+    margin-right: 10px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box h3 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding-top: 8px;
+    margin-right: 30px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box hr {
+    width: 1%;
+    height: 7vh;
+    border: 1px solid #e0e2e3;
+  }
+}
+@media only screen and (min-width: 1120px) and (max-width: 1400px) {
+  #head-page {
+    display: none;
+  }
+  #head-page-small {
+    display: block;
+    background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #head-page-small .backcolor {
+    background-image: radial-gradient(101.74% 101.74% at 68.02% 59.68%, rgba(15, 1, 5, 0) 27.48%, rgba(15, 1, 5, 0.5) 86.14%);
+    padding: 15rem 0rem 9rem 6rem;
+  }
+  #head-page-small .backcolor .cosmetic-aaa a {
+    color: #f8f6f4;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    padding: 8px 25px;
+    border: 1px solid #b29689;
+    transition: 0.5s;
+  }
+  #head-page-small .backcolor .cosmetic-aaa:hover a {
+    border: 1px solid #000;
+    background-color: #000;
+  }
+  #head-page-small .backcolor .cosmetic-write span {
+    font-family: "Charm", cursive;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    padding-top: 10px;
+  }
+  #head-page-small .backcolor .cosmetic-write h3 {
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.06;
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  #head-page-small .backcolor .cosmetic-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: start;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box span {
+    color: #fff;
+    margin-right: 10px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box h3 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding-top: 8px;
+    margin-right: 30px;
+  }
+  #head-page-small .backcolor .cosmetic-icon .cosmetic-box hr {
+    width: 1%;
+    height: 7vh;
+    border: 1px solid #e0e2e3;
+  }
+}/*# sourceMappingURL=style.css.map */
