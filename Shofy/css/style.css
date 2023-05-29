@@ -78,7 +78,7 @@
   border: 1px solid #b29689;
   transition: 0.5s;
 }
-#head-page .backcolor .cosmetic-aaa:hover a {
+#head-page .backcolor .cosmetic-aaa a:hover {
   border: 1px solid #000;
   background-color: #000;
 }
